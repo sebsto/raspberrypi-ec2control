@@ -1,0 +1,47 @@
+begin
+  button = KEY_POWER
+  prog = pylirc
+  config = power
+end
+
+begin
+  button = KEY_UP
+  prog = pylirc
+  config = up
+end
+
+begin
+  button = KEY_DOWN
+  prog = pylirc
+  config = down
+end
+
+begin
+  button = KEY_RIGHT
+  prog = pylirc
+  config = right
+end
+
+begin
+  button = KEY_LEFT
+  prog = pylirc
+  config = left
+end
+
+begin
+  button = KEY_OK
+  prog = pylirc
+  config = ok
+end
+
+begin
+  button = KEY_MENU
+  prog = pylirc
+  config = menu
+end
+
+begin
+  button = KEY_PLAYPAUSE
+  prog = pylirc
+  config = playpause
+end
