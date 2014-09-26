@@ -85,7 +85,7 @@ class Main:
         self.irlistener.startListening()
 
         print "Start Monitoring EC2 instance"
-        self.ec2monitor = EC2StatusMonitoring('eu-west-1', 'i-6909772b')
+        self.ec2monitor = EC2StatusMonitoring('eu-west-1', 'i-8687eac5')
         self.ec2monitor.addMonitoringListener(self.ec2listener)
         self.ec2monitor.startMonitoring()
 
